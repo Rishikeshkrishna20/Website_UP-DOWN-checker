@@ -37,7 +37,7 @@ def send_email(sender_email, password, receiver_email, subject, body):
         print("Failed",e)
 
    
-url = print(input(" Enter your url: "))
+url = input(" Enter your url: ")
 
 if not check_website(url):
     sender_email = os.getenv("SENDER_EMAIL")
